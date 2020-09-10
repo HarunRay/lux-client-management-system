@@ -8,6 +8,7 @@ class Logo extends Component
 {
     /**
      * Theme of the logo. Available options: 'light', 'dark'.
+     *
      * @var string
      */
     public string $theme;

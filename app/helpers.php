@@ -1,6 +1,6 @@
 <?php
 
-if (! function_exists('get_app_title')) {
+if (!function_exists('get_app_title')) {
     function get_page_title($name = '')
     {
         if ($name) {

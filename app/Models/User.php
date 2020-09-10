@@ -13,17 +13,17 @@ use Laravel\Sanctum\HasApiTokens;
 /**
  * App\Models\User.
  *
- * @property int $id
- * @property string $first_name
- * @property string $last_name
- * @property string $email
+ * @property int                             $id
+ * @property string                          $first_name
+ * @property string                          $last_name
+ * @property string                          $email
  * @property \Illuminate\Support\Carbon|null $email_verified_at
- * @property string $password
- * @property string|null $two_factor_secret
- * @property string|null $two_factor_recovery_codes
- * @property string|null $remember_token
- * @property string|null $current_team_id
- * @property string|null $profile_photo_path
+ * @property string                          $password
+ * @property string|null                     $two_factor_secret
+ * @property string|null                     $two_factor_recovery_codes
+ * @property string|null                     $remember_token
+ * @property string|null                     $current_team_id
+ * @property string|null                     $profile_photo_path
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read string $full_name
@@ -36,6 +36,7 @@ use Laravel\Sanctum\HasApiTokens;
  * @property-read int|null $teams_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Laravel\Sanctum\PersonalAccessToken[] $tokens
  * @property-read int|null $tokens_count
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|User newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|User newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|User query()
